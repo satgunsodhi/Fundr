@@ -8,10 +8,10 @@ const _dirname = path.resolve();
 
 app.use(express.json());
 
-app.use(express.static(path.join(_dirname, "/frontend/dist")));
+app.use(express.static(path.join(_dirname, "/dist")));
 
 app.get("/", (req, res) => {
-    res.sendFile(path.resolve(_dirname, "frontend", "dist", "index.html"));
+    res.sendFile(path.resolve(_dirname, "dist", "index.html"));
 })
 
 app.listen(PORT, () => {
