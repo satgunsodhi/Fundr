@@ -104,6 +104,7 @@ const DisplayPage = () => {
                 type="number"
                 min="1"
                 required
+                placeholder="Enter amount"
                 className="w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                 value={investmentAmount}
                 onChange={(e) => setInvestmentAmount(e.target.value)}
