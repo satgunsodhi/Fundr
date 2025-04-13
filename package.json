@@ -6,9 +6,9 @@
     "path-to-regexp": "^8.2.0"
   },
   "scripts": {
-    "start": "cross-env NODE_ENV=production node server.js",
-    "build": "npm run build --prefix frontend",
-    "install": "npm install --prefix frontend"
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "cross-env NODE_ENV=production node server.js"
   },
   "type": "module"
 }
