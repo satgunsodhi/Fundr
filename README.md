@@ -1,6 +1,6 @@
 # Fundr
 
-This project was developed as part of an ideathon built using bolt.new to address the funding gap between early-stage startups and potential consumer investors. The current implementation serves as a functional prototype demonstrating the core concepts and user flows of the platform. While the frontend components and basic functionality are in place, this project is not yet production-ready and would require additional features, security enhancements, financial overview, and backend infrastructure development before deployment.
+This project was developed as part of an ideathon built using ["bolt.new"] to address the funding gap between early-stage startups and potential consumer investors. The current implementation serves as a functional prototype demonstrating the core concepts and user flows of the platform. While the frontend components and basic functionality are in place, this project is not yet production-ready and would require additional features, security enhancements, financial overview, and backend infrastructure development before deployment.
 
 ## Overview
 Fundr is an innovative crowdfunding platform designed to bridge the gap between small startups and the masses. While similar to Kickstarter in its crowdfunding approach, Fundr differentiates itself by focusing on investment rather than pure product backing.
